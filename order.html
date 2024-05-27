@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swegga</title>
+    <link rel="stylesheet" href="css/styling.css">
+
+</head>
+<body>
+
+    <section id="page">
+
+        <div class="left">
+            <img src="images/swegga.jpg" alt="swegga" loading="eager">
+        </div>
+        
+        <div class="main">
+            <div class="banner">
+                <img src="images/delivery.gif"  alt="banner" loading="eager">
+            </div>
+    
+            <div class="nav">
+                <img src="images/links.gif" usemap="#navmap">
+
+                <map name="navmap">
+                    <area shape="rect" coords="0,0,82,126" alt="Home" href="order.html">
+                    <area shape="rect" coords="0,0,182,126" alt="Services" href="#services">
+                    <area shape="circle" coords="0,0,300,126" alt="Products" href="#products">
+                    <area shape="circle" coords="0,0,440,126" alt="Order Status" href="#orderStatus">
+                    <area shape="circle" coords="0,0,580,126" alt="Contact Us" href="#contactUs">
+                </map>
+     
+            </div>
+
+            <h2>Product Summary</h2>
+            <form class="orders">
+                <table>
+                    <tr>
+                    <th>Description</th>
+                    <th>Size</th>
+                    <th>Colour</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                    </tr>
+                    
+                    <tr>
+                    <td><a href="#female.html">Female Ski Jackets</a></td>
+                    <td>
+                        <select name="ddl" id="ddl">
+                            <option>Small</option>
+                            <option>Medium</option>
+                            <option>Large</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="ddl" id="ddl">
+                            <option>Red</option>
+                            <option>Blue</option>
+                            <option>Green</option>
+                        </select>
+                    </td>
+                    <td>150.95</td>
+                    <td>
+                        <input>
+                    </td>
+                    <td displayFsj></td>
+                    </tr>
+
+                    <tr>
+                        <td><a href="#male.html">Male Ski Jackets</a></td>
+                        <td>
+                            <select name="ddl" id="ddl">
+                                <option>Small</option>
+                                <option>Medium</option>
+                                <option>Large</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select name="ddl" id="ddl">
+                                <option>Red</option>
+                                <option>Blue</option>
+                                <option>Green</option>
+                            </select>
+                        </td>
+                        <td>180.95</td>
+                        <td>
+                            <input>
+                        </td>
+                        <td displayMsj></td>
+                    </tr>
+                    
+                    <tr>
+                        <td colspan="4">Click to confirm and process your order:</td>
+                        <td >
+                            <button type="button" class="btnTotal" calculateTotal>Total Price</button>
+                        </td>
+                        <td></td>
+                    </tr>
+                </table>
+            </form>
+
+        </div> 
+
+    </section>
+    
+
+    
+    <script src="script/code. js"></script>
+</body>
+</html>

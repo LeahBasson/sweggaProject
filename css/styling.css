@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 85%;
+	background-color: white;
+    margin: 0;
+	padding: 0; 
+}
+
+#page {
+    width: 70rem;
+    height: auto;
+    display: flex;
+    margin-left: 150px;
+}
+
+.banner img{
+    margin-top: 10px;
+    height: 85px;
+    width: 300px;
+}
+
+.left img{
+    width: 150px;
+    height: 350px;
+}
+
+.nav img {
+    height: 56px;
+    width: 560px;
+}
+
+h2{
+    text-align: center;
+    color: blue;
+}
+
+
+th, td{
+    border: 1px solid black;
+    padding: 0.6rem 2rem;
+}
+
+.btnTotal{
+    padding: 0.5rem 3rem;
+}
